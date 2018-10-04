@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "address-book-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addressBookReact/AddressBookReactWebPart.js",
+          "manifest": "./src/webparts/addressBookReact/AddressBookReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AddressBookReactWebPartStrings": "lib/webparts/addressBookReact/loc/{locale}.js"
+  }
+}

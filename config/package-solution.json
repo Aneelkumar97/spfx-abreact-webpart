@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "addressbook-react-webpart-client-side-solution",
+    "id": "771bfe9f-f44c-4775-af5c-cc93e201e46f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/addressbook-react-webpart.sppkg"
+  }
+}

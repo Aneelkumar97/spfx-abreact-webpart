@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "addressbook-react-webpart",
+    "libraryId": "771bfe9f-f44c-4775-af5c-cc93e201e46f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

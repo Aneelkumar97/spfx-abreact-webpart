@@ -1,0 +1,58 @@
+.header {
+    height: 150px;
+    background-color: #3398cc;
+
+    p {
+      margin: 0;
+      height: 82px;
+      font-size: 50px;
+      color: #fff;
+      font-family: CenturyGothic;
+      padding-left: 22px;
+      padding-top: 22px;
+    }
+
+    .navBar {
+      height: 33px;
+      background-color: #36332f;
+
+      ul {
+        padding-left: 10px;
+        padding-top: 5px;
+        
+        li {
+          display: inline;
+          
+          a {
+            border-left: 4px solid #36332F;
+            padding: 5px 8px 9px;
+            margin: 0px;
+            text-decoration: none;
+            color: white;
+            font-family: "Gadugib";
+            font-weight: bold;
+            
+            img {
+              vertical-align: middle;
+            }
+          }
+          
+          a:hover {
+            border-left: 4px solid #fff;
+            background-color: #f90;
+            color: #000;
+            cursor: pointer;
+          }
+        }
+      }
+
+      li:last-child {
+        float: right;
+        padding: 0 25px;
+
+        a {
+          padding: 6px 8px 8px;
+        }
+      }
+    }
+  }

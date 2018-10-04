@@ -1,0 +1,16 @@
+
+    .contactsList {
+      border: .5px solid #e0e0e0;
+      margin-top: 20px;
+      padding-left: 0;
+      
+      .listItem {
+        font-family: Open Sans;
+        padding: 10px;
+        border-bottom: .5px solid #e0e0e0;
+      }
+
+      .listItem:hover {
+        cursor: pointer;
+      }
+    }

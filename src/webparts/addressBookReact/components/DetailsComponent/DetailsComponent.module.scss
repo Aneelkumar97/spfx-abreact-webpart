@@ -1,0 +1,73 @@
+.name {
+    font-size: 28px;
+    display: inline;
+    margin-right: 5px;
+  }
+
+  .edit {
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+
+    img {
+      width: 14px;
+      height: 14px;
+      transform: rotate(-10deg);
+      vertical-align: baseline;
+    }
+  }
+
+  .edit:hover,.delete:hover {
+    cursor: pointer;
+  }
+
+  .delete {
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+
+    img {
+      width: 18px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+
+  .email {
+    display: inline-block;
+    margin: 12px 0;
+    font-size: 16px;
+  }
+
+  .mobile {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 0;
+  }
+
+  .landline,.website {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .address {
+    font-size: 16px;
+    display: -ms-flexbox;
+    display: flex;
+
+    .addressView {
+      padding-left: 10px;
+      width: 200px;
+      word-break: break-all;
+      font-size: 16px;
+      font-family: Gadugi;
+    }
+  }
+
+  .displayInline {
+    display: inline;
+    margin-left: 5px;
+  }
